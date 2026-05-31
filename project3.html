@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 3 - Portfolio Maël Le Doare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="project-styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Maël Le Doare</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">← Retour</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="project-hero" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+        <div class="container">
+            <h1 class="project-title">Compétence 3 : Administrer des systèmes informatiques</h1>
+            <p class="project-description">Projet <strong>d'instalation d'architecture réseaux</strong>' </p>
+        </div>
+    </section>
+
+    <main class="container project-main">
+        <!-- Project Content Section -->
+        <section class="project-content">
+            <div class="content-grid">
+                <div class="content-block">
+                    <h2>À propos du Projet</h2>
+                    <p>Ce projet m'a permis de maîtriser les technologies réseaux et d'acquérir une expérience solide en administration de systèmes informatiques.</p>
+                    <p>Ce projet m'a permis de comprendre les principes fondamentaux de la conception et de l'administration de réseaux informatiques, ainsi que les bonnes pratiques en matière de configuration</p>
+                </div>
+                <div class="content-block">
+                    <h3>Points Clés</h3>
+                    <ul class="objectives-list">
+                        <li>Créer un systeme de réseau lan fonctionnel</li>
+                        <li>Comprendre et appliquer les principes de routage</li>
+                        <li>Créer des servers DHCP</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section class="project-tech-section">
+            <h2>Technologies Utilisées</h2>
+            <div class="tech-list">
+                <div class="tech-item">
+                    <h4>Cisco packet Tracer</h4>
+                    <p>Logiciel de simulation de réseaux</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="project-results-section">
+            <h2>Résultats et Apprentissages</h2>
+            <div class="results-grid">
+                <div class="result-card">
+                    <span class="result-number">60%</span>
+                    <span class="result-label">Fonctionnalités Implémentées</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-number">8.5/10</span>
+                    <span class="result-label">Connaissances</span>
+                </div>
+            </div>
+            <div class="learning-section">
+                <h3>Ce que j'ai appris</h3>
+                <p>Ce projet m'a fait découvrir l'instalation de réseau et a renforcer et m'a permis de mieux comprendre les connaissances que j'avais déjà en hébergement de servers</p>
+            </div>
+        </section>
+
+        <div class="project-gallery">
+            <h2>Galerie du Projet</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <img src="images/Réseau1.png" alt="Screenshot 1" class="gallery-image" data-full="images/Réseau1.png">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <img src="images/Réseau2.jpg" alt="Screenshot 2" class="gallery-image" data-full="images/Réseau2.jpg">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <img src="images/Réseau3.jpg" alt="Screenshot 3" class="gallery-image" data-full="images/Réseau3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Zoom Modal -->
+        <div id="imageModal" class="modal">
+            <span class="close-modal">&times;</span>
+            <img class="modal-content" id="modalImage" src="" alt="Zoomed image">
+        </div>
+
+        <div class="project-links">
+            <h2>Ressources</h2>
+            <a href="https://github.com" class="link-button" target="_blank">Voir le code source</a>
+            <a href="#" class="link-button secondary">Voir la démo</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Maël Le Doare | Portfolio - BUT Informatique</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

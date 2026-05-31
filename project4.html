@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 4 - Portfolio Maël Le Doare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="project-styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Maël Le Doare</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">← Retour</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="project-hero" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+        <div class="container">
+            <h1 class="project-title">Compétence 4 : Gérer des données de l'information</h1>
+            <p class="project-description">Pojet de <strong>Réalisation d'une Bases de Données pour compteurs électriques</strong></p>
+        </div>
+    </section>
+
+    <main class="container project-main">
+        <!-- Project Content Section -->
+        <section class="project-content">
+            <div class="content-grid">
+                <div class="content-block">
+                    <h2>À propos du Projet</h2>
+                    <p>Ce projet de base de données avait pour but de concevoir et implémenter une solution pour gérer les données de fromules d'abonnements à des compteurs électriques.</p>
+                    <p>J'ai du utiliser mes compétences et notions théorique d'UML et du language de requête TutorialD</p>
+                </div>
+                <div class="content-block">
+                    <h3>Réalisations</h3>
+                    <ul class="objectives-list">
+                        <li>Concevoir une architecture de base de données relationnelle</li>
+                        <li>Peupler la base de données</li>
+                        <li>Réaliser des graphes des contraintes d'intégrité réferentiel</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section class="project-tech-section">
+            <h2>Technologies Utilisées</h2>
+            <div class="tech-list">
+                <div class="tech-item">
+                    <h4>TutorialD</h4>
+                    <p>Langage de requête pour les bases de données relationnelles</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Draw.io</h4>
+                    <p>Dessin et conception de diagrammes référentiels</p>
+                </div>
+                <div class="tech-item">
+                    <h4>REL</h4>
+                    <p>logiciel de gestion de bases de données</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="project-results-section">
+            <h2>Résultats et Apprentissages</h2>
+            <div class="results-grid">
+                <div class="result-card">
+                    <span class="result-number">100%</span>
+                    <span class="result-label">Fonctionnalités Implémentées</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-number">9.0/10</span>
+                    <span class="result-label">Intégrité de la table</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-number">8/10</span>
+                    <span class="result-label">Traduction de la base de données</span>
+                </div>
+            </div>
+            <div class="learning-section">
+                <h3>Ce que j'ai appris</h3>
+                <p>Ce projet m'a permis de maîtriser les concepts de base de données relationnelles et d'appliquer les principes d'intégrité référentielle tout en concrétisant les notions théoriques de cours à un cas réel.</p>
+            </div>
+        </section>
+
+        <div class="project-gallery">
+            <h2>Galerie du Projet</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <img src="images/BDD1.png" alt="Screenshot 1" class="gallery-image" data-full="images/BDD1.png">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <img src="images/BDD2.png" alt="Screenshot 2" class="gallery-image" data-full="images/BDD2.png">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <img src="images/BDD3.png" alt="Screenshot 3" class="gallery-image" data-full="images/BDD3.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Zoom Modal -->
+        <div id="imageModal" class="modal">
+            <span class="close-modal">&times;</span>
+            <img class="modal-content" id="modalImage" src="" alt="Zoomed image">
+        </div>
+
+        <div class="project-links">
+            <h2>Ressources</h2>
+            <a href="https://github.com" class="link-button" target="_blank">Voir le code source</a>
+            <a href="#" class="link-button secondary">Voir la démo</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Maël Le Doare | Portfolio - BUT Informatique</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

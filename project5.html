@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 5 - Portfolio Maël Le Doare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="project-styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Maël Le Doare</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">← Retour</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="project-hero" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+        <div class="container">
+            <h1 class="project-title">Compétence 5 : Conduire un projet</h1>
+            <p class="project-description">Un projet de <strong>Création d'un Site Vitrine pour un Agence du tourisme Islandaise</strong></p>
+        </div>
+    </section>
+
+    <main class="container project-main">
+        <!-- Project Content Section -->
+        <section class="project-content">
+            <div class="content-grid">
+                <div class="content-block">
+                    <h2>À propos du Projet</h2>
+                    <p>Ce projet en équipe avait pour but de nous faire créer, de la conception, du maquettage au développement un site internet en suivant un cahier des charges.</p>
+                    <p>Nous avons du mobiliser nos connaissances en HTML et en CSS et nous coordonner pour atteindre les objectifs fixés et bien répartir le travail.</p>
+                </div>
+                <div class="content-block">
+                    <h3>Défis Relevés</h3>
+                    <ul class="objectives-list">
+                        <li>Developper un site internet responsive</li>
+                        <li>Créer une charte graphique cohérente</li>
+                        <li>Réaliser un maquettage détaillé</li>
+                        <li>Suivre un cahier des charges</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section class="project-tech-section">
+            <h2>Technologies Utilisées</h2>
+            <div class="tech-list">
+                <div class="tech-item">
+                    <h4>HTML</h4>
+                    <p>Langage de balisage pour la structure du site</p>
+                </div>
+                <div class="tech-item">
+                    <h4>CSS</h4>
+                    <p>Langage de style pour le design du site</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Figma</h4>
+                    <p>outil de conception et de maquettage</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Git</h4>
+                    <p>Systeme de gestion de version</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="project-results-section">
+            <h2>Résultats et Apprentissages</h2>
+            <div class="results-grid">
+                <div class="result-card">
+                    <span class="result-number">95%</span>
+                    <span class="result-label">Fonctionnalités Implémentées</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-number">6/10</span>
+                    <span class="result-label">respet du cahier des charges</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-number">7/10</span>
+                    <span class="result-label">Cohérence graphique</span>
+                </div>
+            </div>
+            <div class="learning-section">
+                <h3>Ce que j'ai appris</h3>
+                <p>Ce projet m'a permis de me familiariser avec des outils collaboratif tel que git et à collaborrer pour passez de prototypes à un site internet fonctionel tout en s'assurant de bien se coordooner avec les membres</p>
+            </div>
+        </section>
+
+        <div class="project-gallery">
+            <h2>Galerie du Projet</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <img src="images/web1.png" alt="Screenshot 1" class="gallery-image" data-full="images/web1.png">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <img src="images/web2.png" alt="Screenshot 2" class="gallery-image" data-full="images/web2.png">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <img src="images/web3.png" alt="Screenshot 3" class="gallery-image" data-full="images/web3.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Zoom Modal -->
+        <div id="imageModal" class="modal">
+            <span class="close-modal">&times;</span>
+            <img class="modal-content" id="modalImage" src="" alt="Zoomed image">
+        </div>
+
+        <div class="project-links">
+            <h2>Ressources</h2>
+            <a href="https://github.com" class="link-button" target="_blank">Voir le code source</a>
+            <a href="#" class="link-button secondary">Voir la démo</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Maël Le Doare | Portfolio - BUT Informatique</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

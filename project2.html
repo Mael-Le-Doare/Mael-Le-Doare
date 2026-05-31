@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 2 - Portfolio Maël Le Doare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="project-styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Maël Le Doare</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">← Retour</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="project-hero" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+        <div class="container">
+            <h1 class="project-title">Compétence 2 : Optimiser des applications informatiques</h1>
+            <p class="project-description">Projet de résolution du <strong>Problème du cavalier</strong></p>
+        </div>
+    </section>
+
+    <main class="container project-main">
+        <!-- Project Content Section -->
+        <section class="project-content">
+            <div class="content-grid">
+                <div class="content-block">
+                    <h2>À propos du Projet</h2>
+                    <p>Ce projet avait pour objectif de créer un algorithme capable de résoudre le problème mathématique de <strong>la Balade du Cavalier</strong>. L'accent était mis sur l'implémentation de notion mathématiques pour résoudre un probleme algorithmique.
+                    <p>Ce projet en équipe nous a permis de rassembler nos compétences de programation et nos connaissances en théorie des  graphes pour développer une solution au problème</p>
+                </div>
+                <div class="content-block">
+                    <h3>Objectifs Réalisés</h3>
+                    <ul class="objectives-list">
+                        <li>Développer une interface intéractive et ludique</li>
+                        <li>Élaborer un algorithme le plus optimisé possible</li>
+                        <li>Utiliser des notions mathématiques complexex : BFS, DFS</li>
+                        <li>Vérifier la lisibilité du code pour la partager</li>
+                        <li>Documenter ses recherches et lier maths et informatique</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section class="project-tech-section">
+            <h2>Technologies Utilisées</h2>
+            <div class="tech-list">
+                <div class="tech-item">
+                    <h4>Python, module orienté objet</h4>
+                    <p>Langage principal de l'algorithme</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Bibliothèque python Tkinter</h4>
+                    <p>Bibliothèque pour créer une interface simple mais efficace</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Git & GitHub</h4>
+                    <p>Gestion de versions et des scripts pour travailler en équipe</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="project-results-section">
+            <h2>Résultats et Apprentissages</h2>
+            <div class="results-grid">
+                <div class="result-card">
+                    <span class="result-number">100%</span>
+                    <span class="result-label">Fonctionnalités Implémentées</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-number">10/10</span>
+                    <span class="result-label">Performances de l'algorithme</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-number">7/10</span>
+                    <span class="result-label">répartition du travail d'équipe</span>
+                </div>
+            </div>
+            <div class="learning-section">
+                <h3>Ce que j'ai appris</h3>
+                <p>Ce projet m'a permis de comprendre les lien entre la théorie des graphes et certains algorithmes de parcours de recherches avancés. Ce projet m'a fait découvrir une notion importante en développement : le backtracking.</p>
+            </div>
+        </section>
+
+        <div class="project-gallery">
+            <h2>Galerie du Projet</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <img src="images/Cavalier1.png" alt="Screenshot 1" class="gallery-image" data-full="images/Cavalier1.png">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <img src="images/Cavalier2.png" alt="Screenshot 2" class="gallery-image" data-full="images/Cavalier2.png">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <img src="images/Cavalier3.png" alt="Screenshot 3" class="gallery-image" data-full="images/Cavalier3.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Zoom Modal -->
+        <div id="imageModal" class="modal">
+            <span class="close-modal">&times;</span>
+            <img class="modal-content" id="modalImage" src="" alt="Zoomed image">
+        </div>
+
+        <div class="project-links">
+            <h2>Ressources</h2>
+            <a href="https://github.com" class="link-button" target="_blank">Voir le code source</a>
+            <a href="#" class="link-button secondary">Voir la démo</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Maël Le Doare | Portfolio - BUT Informatique</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
